@@ -2,7 +2,7 @@ import aividens from "../assets/logo/aividens.jpeg";
 import colruyt from "../assets/logo/colruyt.png";
 import ecam from "../assets/logo/ECAM.webp";
 import projectPortfolioWeb from "../assets/projects/portfolioWeb.png";
-import projectLangchain from "../assets/projects/Langchain.png";
+import projectLangchain from "../assets/projects/LangChain.png";
 import projectMobile from "../assets/projects/musicApp.png";
 import projectKubernetes from "../assets/projects/Kubernetes.png";
 import projectRobot from "../assets/projects/robot.png";
