@@ -1,13 +1,13 @@
 {
   "name": "cvwebsite",
-  "homepage": "https://jordan-92.github.io/JordanHermans"
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@react-email/components": "0.0.25",
