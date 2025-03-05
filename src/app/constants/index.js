@@ -64,7 +64,7 @@ export const LANGUAGES = [
   },
   {
     title: "Spanish",
-    level: "Intermediate",
+    level: "Upper-Intermediate (B2- level)",
     languageStays: {},
   },
 ];
