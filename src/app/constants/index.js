@@ -72,7 +72,7 @@ export const LANGUAGES = [
 export const SKILLS = [
   {
     title: "Languages",
-    skills: { "Python": "★★★★★", "JavaScript, TypeScript": "★★★☆☆" },
+    skills: { "Python (OOP)": "★★★★★", "JavaScript, TypeScript": "★★★☆☆" },
   },
   {
     title: "Data Science",
@@ -138,9 +138,9 @@ export const EXPERIENCES = [
       `
         Analyzed a new client's <span class="font-bold text-white/80">data</span>
         by <span class="font-bold text-white/80">cleaning</span> it,
-        <span class="font-bold text-white/80">selecting key features</span>,
-        and applying <span class="font-bold text-white/80">machine learning</span> (scikit-learn)
-        and <span class="font-bold text-white/80">deep learning</span> (TensorFlow).
+        <span class="font-bold text-white/80">selecting key features</span>
+        and applying <span class="font-bold text-white/80">machine learning</span>
+        (scikit-learn and TensorFlow).
         Compiled the findings into a <span class="font-bold text-white/80">Jupyter Notebook</span>
         report with  tables and plots.
       `,
