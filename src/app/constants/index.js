@@ -23,7 +23,7 @@ export const NAV_LINKS = [
 
 export const ABOUT_ME = 
   `
-    As a second-year master’s student in Industrial Engineering with a specialization in Computer Science, I am passionate about automation, logic, and science.
+    As a Belgian second-year master’s student in Industrial Engineering with a specialization in Computer Science, I am passionate about automation, logic, and science.
     Over the past two years, I have become increasingly interested in artificial intelligence, a field that I find both fascinating and challenging.
     Beyond technology, I highly value human connections and enjoy meeting new people, especially through traveling, one of my greatest passions.
     In addition to exploring new places, I have a deep love for music and sports.
