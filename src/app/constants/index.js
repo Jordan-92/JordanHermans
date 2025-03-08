@@ -105,7 +105,7 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title:"Student Job in Data Science",
+    title:"Software & Automation Engineer Intern",
     image: aividens,
     year: "Oct. 2023 - To date (1 year 6 months+)",
     company: '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
@@ -130,7 +130,7 @@ export const EXPERIENCES = [
     },
   },
   {
-    title: "Internship in Artificial Intelligence",
+    title: "Data Science & Machine Learning Intern",
     image: aividens,
     year: "Apr. 2023 - May 2023 (2 months)",
     company: '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
