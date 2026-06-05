@@ -34,8 +34,8 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-blue-200 via-slate-500 to-blue-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Student in industrial engineering sciences,<br />
-              computer science orientation
+              Junior Data Scientist | Python, SQL, Machine Learning<br />
+              Open to work
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -43,8 +43,7 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-5 font-light tracking-tighter"
             >
-              I am seeking for a 6-week internship from August 4 to September 19, 2025<br />
-              combined with a final thesis from September 22 to December 19, 2025.
+              I am seeking for a full-time job in data science.
             </motion.p>
             <div className="my-2 text-2xl">
               Get in Touch
