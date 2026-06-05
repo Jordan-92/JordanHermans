@@ -23,10 +23,10 @@ export const NAV_LINKS = [
 
 export const ABOUT_ME = 
   `
-    As a Belgian second-year master’s student in Industrial Engineering with a specialization in Computer Science, I am passionate about automation, logic, and science.
-    Over the past two years, I have become increasingly interested in artificial intelligence, a field that I find both fascinating and challenging.
-    Beyond technology, I highly value human connections and enjoy meeting new people, especially through traveling, one of my greatest passions.
-    In addition to exploring new places, I have a deep love for music and sports.
+    I am a Belgian graduate in Industrial Engineering with a specialization in Computer Science and a strong interest in Data Science and Artificial Intelligence.
+    Through internships, student jobs, and my master’s thesis, I have developed practical experience in data analysis, machine learning, and software development, while strengthening my analytical and problem-solving skills.
+    I am passionate about transforming data into actionable insights and building intelligent solutions to real-world challenges.
+    I am currently seeking a first opportunity as a Junior Data Scientist, Data Analyst, or Machine Learning Engineer, where I can contribute to impactful projects while continuing to grow professionally.
   `;
 
 export const HOBBIES = [
@@ -105,9 +105,32 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    title:"Data Scientist – Master’s Thesis on Behavioral Segmentation",
+    image: aividens,
+    year: "Aug. 2025 - Jan. 2026 (6 months)",
+    company: '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
+    description:
+      `
+        Conducted a master’s thesis at AiVidens focused on behavioral analytics in Accounts Receivable and Credit-to-Cash processes.
+        - Designed and implemented behavioral KPIs to measure payer intent, friction, and reaction to dunning and collection actions.
+        - Developed a reproducible Python data pipeline for extracting, validating, and processing multi-tenant PostgreSQL data.
+        - Applied machine learning to identify behavioral payer segments.
+        - Built a behavioral segmentation framework robust to partial observability and sparse operational data.
+        - Analyzed the impact of dunning and collection actions on payment behavior using large-scale real-world datasets.
+        - Delivered actionable insights to support behavior-driven collection strategies and predictive credit analytics.
+      `,
+    technologies: {
+      DataScience: "",
+      KPI: "",
+      MachineLearning: "",
+      Python: "",
+      SQL: "",
+    },
+  },
+  {
     title:"Software & Automation Engineer Intern",
     image: aividens,
-    year: "Oct. 2023 - To date (1 year 6 months+)",
+    year: "Oct. 2023 - Jul. 2025 (1 year 10 months)",
     company: '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
     description:
       `
