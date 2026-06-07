@@ -126,8 +126,8 @@ export const EXPERIENCES = [
     tasks:
     [
       "Designed behavioral KPIs to measure payer behavior to dunning and collection actions.",
-      "Built a Python/PostgreSQL data pipeline for large-scale behavioral analysis."
-      "Applied machine learning to identify payer segments and predict collection outcomes."
+      "Built a Python/PostgreSQL data pipeline for large-scale behavioral analysis.",
+      "Applied machine learning to identify payer segments and predict collection outcomes.",
       "Delivered actionable insights to support behavior-driven collection strategies and predictive credit analytics."
     ],
     technologies: {
@@ -284,5 +284,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  email: "195016@ecam.be",
+  email: "jordan.hermans@gmail.com",
 };
