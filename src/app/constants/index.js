@@ -82,40 +82,40 @@ export const LANGUAGES = [
 export const SKILLS = [
   {
     title: "Data & Analytics",
-    skills: {
+    skills: [
       "Python",
       "SQL (PostgreSQL)",
       "Pandas",
       "Statistical Analysis"
-    },
+    ],
   },
   {
     title: "Machine Learning & AI",
-    skills: {
+    skills: [
       "Customer Segmentation",
       "Scikit-Learn",
       "TensorFlow, PyTorch",
       "Time Series (NeuralProphet)",
       "LLM Applications (LangChain)"
-    },
+    ],
   {
     title: "Business & Financial Analytics",
-    skills: {
+    skills: [
       "Behavioral Analytics",
       "KPI Design & Performance Measurement",
       "Accounts Receivable & Credit-to-Cash",
       "Collection Strategy Analytics"
-    },
+    ],
   },
   },
   {
     title: "Software Engineering",
-    skills: {
+    skills: [
       "Data Pipelines",
       "Git & GitLab",
       "Docker",
       "PyTest"
-    },
+    ],
   },
 ];
 
