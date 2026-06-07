@@ -86,7 +86,7 @@ export const SKILLS = [
       "Python",
       "SQL (PostgreSQL)",
       "Pandas",
-      "Statistical Analysis"
+      "Statistical Analysis",
     ],
   },
   {
@@ -96,16 +96,16 @@ export const SKILLS = [
       "Scikit-Learn",
       "TensorFlow, PyTorch",
       "Time Series (NeuralProphet)",
-      "LLM Applications (LangChain)"
+      "LLM Applications (LangChain)",
     ],
   },
   {
-    title: "Business & Financial Analytics",
+    title: "Business Analytics",
     skills: [
       "Behavioral Analytics",
       "KPI Design & Performance Measurement",
       "Accounts Receivable & Credit-to-Cash",
-      "Collection Strategy Analytics"
+      "Collection Strategy Analytics",
     ],
   },
   {
@@ -114,7 +114,7 @@ export const SKILLS = [
       "Data Pipelines",
       "Git & GitLab",
       "Docker",
-      "PyTest"
+      "PyTest",
     ],
   },
 ];
