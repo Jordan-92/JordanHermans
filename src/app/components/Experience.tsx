@@ -48,15 +48,19 @@ const Experience = () => {
                 />
               </h6>
               <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
-              <p
-                className="mb-4 text-neutral-400"
-                dangerouslySetInnerHTML={{ __html: experience.description }}
-              />
-              <ul className="mb-2 list-disc list-inside text-neutral-400">
-                {experience.tasks.map((task, index) => (
-                  <li key={index}>{task}</li>
-                ))}
-              </ul>
+              <div className="mb-4 text-neutral-400">
+                <div
+                  dangerouslySetInnerHTML={{ __html: experience.description }}
+                />
+              
+                {experience.tasks?.length > 0 && (
+                  <ul className="mt-1 list-disc list-inside">
+                    {experience.tasks.map((task, index) => (
+                      <li key={index}>{task}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
               <div className="mt-4">
                 {Object.entries(experience.technologies).map(([tech, url], index) => (
                   <a
