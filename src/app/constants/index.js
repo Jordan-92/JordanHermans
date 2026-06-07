@@ -199,6 +199,7 @@ export const EXPERIENCES = [
       both among my colleagues and with customers.
       Also gained experience <span class="font-bold text-white/80">working under pressure</span>.
     `,
+    tasks: [],
     technologies: {},
   },
 ];
