@@ -214,7 +214,7 @@ export const EDUCATION = [
   {
     company: "ECAM",
     image: ecam,
-    year: "2019 - To date",
+    year: "Sep. 2019 - Jan. 2026",
     description: `Industrial Engineering Institute`,
     certifications:
     [
