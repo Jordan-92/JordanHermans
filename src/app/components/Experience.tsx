@@ -52,6 +52,11 @@ const Experience = () => {
                 className="mb-4 text-neutral-400"
                 dangerouslySetInnerHTML={{ __html: experience.description }}
               />
+              <ul className="mb-2 list-disc list-inside text-neutral-400">
+                {experience.tasks.map((task, index) => (
+                  <li key={index}>{task}</li>
+                ))}
+              </ul>
               <div className="mt-4">
                 {Object.entries(experience.technologies).map(([tech, url], index) => (
                   <a
