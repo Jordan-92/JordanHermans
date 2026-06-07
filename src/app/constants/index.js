@@ -22,12 +22,22 @@ export const NAV_LINKS = [
 ];
 
 export const ABOUT_ME = 
-  `
-    I am a Belgian graduate in Industrial Engineering with a specialization in Computer Science and a strong interest in Data Science and Artificial Intelligence.
-    Through internships, student jobs, and my master’s thesis, I have developed practical experience in data analysis, machine learning, and software development, while strengthening my analytical and problem-solving skills.
-    I am passionate about transforming data into actionable insights and building intelligent solutions to real-world challenges.
-    I am currently seeking a first opportunity as a Junior Data Scientist, Data Analyst, or Machine Learning Engineer, where I can contribute to impactful projects while continuing to grow professionally.
-  `;
+{
+  paragraph:
+    [ 
+      `
+        I am a Belgian graduate in Industrial Engineering with a specialization in Computer Science
+        and a strong interest in Data Science and Artificial Intelligence.
+        Through internships, student jobs, and my master’s thesis, I have developed practical experience in data analysis,
+        machine learning, and software development, while strengthening my analytical and problem-solving skills.
+      `,
+      `
+        I am passionate about transforming data into actionable insights and building intelligent solutions to real-world challenges.
+        I am currently seeking a first opportunity as a Junior Data Scientist, Data Analyst, or Machine Learning Engineer,
+        where I can contribute to impactful projects while continuing to grow professionally.
+      `
+    ]
+}
 
 export const HOBBIES = [
   {
