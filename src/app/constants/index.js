@@ -81,35 +81,41 @@ export const LANGUAGES = [
 
 export const SKILLS = [
   {
-    title: "Languages",
-    skills: { "Python (OOP)": "★★★★★", "JavaScript, TypeScript": "★★★☆☆" },
-  },
-  {
-    title: "Data Science",
-    skills: { "Pandas, JupyterLab": "★★★★☆", "SQL & NoSQL": "★★★★☆" },
-  },
-  {
-    title: "AI Frameworks",
-    skills: { 
-      "Scikit-Learn, TensorFlow, PyTorch": "★★★★☆", 
-      "NeuralProphet, LangChain": "★★★☆☆" 
+    title: "Data & Analytics",
+    skills: {
+      "Python",
+      "SQL (PostgreSQL)",
+      "Pandas",
+      "Statistical Analysis"
     },
   },
   {
-    title: "DevOps",
-    skills: { "Git & GitLab, YAML": "★★★★★", "Docker": "★★★☆☆" },
+    title: "Machine Learning & AI",
+    skills: {
+      "Customer Segmentation",
+      "Scikit-Learn",
+      "TensorFlow, PyTorch",
+      "Time Series (NeuralProphet)",
+      "LLM Applications (LangChain)"
+    },
+  {
+    title: "Business & Financial Analytics",
+    skills: {
+      "Behavioral Analytics",
+      "KPI Design & Performance Measurement",
+      "Accounts Receivable & Credit-to-Cash",
+      "Collection Strategy Analytics"
+    },
+  },
   },
   {
-    title: "Testing",
-    skills: { "PyTest": "★★★★★" },
-  },
-  {
-    title: "Web Development",
-    skills: { "React (Next.js), HTML5, CSS3": "★★★★☆" },
-  },
-  {
-    title: "Productivity",
-    skills: { "Microsoft Office": "★★★★☆" },
+    title: "Software Engineering",
+    skills: {
+      "Data Pipelines",
+      "Git & GitLab",
+      "Docker",
+      "PyTest"
+    },
   },
 ];
 
