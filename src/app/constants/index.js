@@ -98,6 +98,7 @@ export const SKILLS = [
       "Time Series (NeuralProphet)",
       "LLM Applications (LangChain)"
     ],
+  },
   {
     title: "Business & Financial Analytics",
     skills: [
@@ -106,7 +107,6 @@ export const SKILLS = [
       "Accounts Receivable & Credit-to-Cash",
       "Collection Strategy Analytics"
     ],
-  },
   },
   {
     title: "Software Engineering",
