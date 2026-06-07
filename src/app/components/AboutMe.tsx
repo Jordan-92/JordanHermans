@@ -75,12 +75,12 @@ const AboutMe = () => {
                     </h2>
                     <div className="flex flex-col gap-4">
                         {SKILLS.map((category, index) => (
-                            <div key={index} className="flex justify-between items-start">
-                                <h3 className="font-bold text-lg w-2/5">{category.title}</h3>
-                                <ul className="w-3/5">
+                            <div key={index} className="grid grid-cols-[320px_1fr] gap-8 items-start">
+                                <h3 className="font-bold text-base">{category.title}</h3>
+                                <ul className="space-y-3">
                                     {category.skills.map((skill, i) => (
-                                        <li key={i} className="flex justify-between py-1 text-sm">
-                                            <span>{skill}</span>
+                                        <li key={i} className="text-sm">
+                                            {skill}
                                         </li>
                                     ))}
                                 </ul>
