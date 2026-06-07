@@ -122,13 +122,14 @@ export const EXPERIENCES = [
     description:
       `
         Conducted a master’s thesis at AiVidens focused on behavioral analytics in Accounts Receivable and Credit-to-Cash processes.
-        - Designed and implemented behavioral KPIs to measure payer intent, friction, and reaction to dunning and collection actions.
-        - Developed a reproducible Python data pipeline for extracting, validating, and processing multi-tenant PostgreSQL data.
-        - Applied machine learning to identify behavioral payer segments.
-        - Built a behavioral segmentation framework robust to partial observability and sparse operational data.
-        - Analyzed the impact of dunning and collection actions on payment behavior using large-scale real-world datasets.
-        - Delivered actionable insights to support behavior-driven collection strategies and predictive credit analytics.
       `,
+    tasks:
+    [
+      "Designed behavioral KPIs to measure payer behavior to dunning and collection actions.",
+      "Built a Python/PostgreSQL data pipeline for large-scale behavioral analysis."
+      "Applied machine learning to identify payer segments and predict collection outcomes."
+      "Delivered actionable insights to support behavior-driven collection strategies and predictive credit analytics."
+    ],
     technologies: {
       DataScience: "",
       KPI: "",
@@ -151,6 +152,7 @@ export const EXPERIENCES = [
         Also cleaned <span class="font-bold text-white/80">AI code</span>
         and implemented <span class="font-bold text-white/80">unit tests</span>.
       `,
+    tasks: [],
     technologies: {
       GitLab: "https://about.gitlab.com/",
       PostgreSQL: "https://www.postgresql.org/",
@@ -177,13 +179,14 @@ export const EXPERIENCES = [
         Compiled the findings into a <span class="font-bold text-white/80">Jupyter Notebook</span>
         report with  tables and plots.
       `,
-      technologies: {
-        GitLab: "https://about.gitlab.com/",
-        Pandas: "https://pandas.pydata.org/",
-        "Scikit-learn": "https://scikit-learn.org/",
-        TensorFlow: "https://www.tensorflow.org/",
-        JupyterLab: "https://pytest.com/",
-      },
+    tasks: [],
+    technologies: {
+      GitLab: "https://about.gitlab.com/",
+      Pandas: "https://pandas.pydata.org/",
+      "Scikit-learn": "https://scikit-learn.org/",
+      TensorFlow: "https://www.tensorflow.org/",
+      JupyterLab: "https://pytest.com/",
+    },
   },
   {
     title: "Student Worker",
