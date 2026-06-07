@@ -19,7 +19,13 @@ const AboutMe = () => {
                         About Me
                     </h1>
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2">{ABOUT_ME}</p>
+                      <div className="my-2">
+                        {ABOUT_ME.paragraph.map((text, index) => (
+                          <p key={index} className="mb-4">
+                            {text}
+                          </p>
+                        ))}
+                      </div>
                     </div>
                     <h2 className="my-5 text-3xl">Hobbies</h2>
                     <div className="flex flex-wrap justify-center gap-4">
