@@ -35,7 +35,7 @@ const Hero = () => {
               className="bg-gradient-to-r from-blue-200 via-slate-500 to-blue-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               Junior Data Scientist | Python, SQL, Machine Learning<br />
-              Open to work
+              Available from September 2026
             </motion.span>
             <motion.p
               variants={container(1)}
