@@ -121,11 +121,11 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title:"Feb. 2026 - Aug. 2026 · Career break — independent travel across Asia and Europe (planned before graduation).",
+    title:"Career break",
     image: hobbyTravel.src,
-    year: "Aug. 2025 - Jan. 2026 (6 months)",
-    company: "",
-    description: "",
+    year: "Feb. 2026 - Aug. 2026 (7 months)",
+    company: "Independent travel",
+    description: "Independent travel across Asia and Europe (planned before graduation).",
     tasks: [],
     technologies: {},
   },
