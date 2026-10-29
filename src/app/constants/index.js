@@ -87,7 +87,7 @@ export const SKILLS = [
     skills: ["Python", "SQL", "PostgreSQL", "Pandas", "NumPy"],
   },
   {
-    title: "Modelling & Machine Learning",
+    title: "Modelling & AI",
     skills: [
       "Statistics",
       "Forecasting",
@@ -95,10 +95,11 @@ export const SKILLS = [
       "Scikit-learn",
       "TensorFlow",
       "PyTorch",
+      "LLM Applications (LangChain)",
     ],
   },
   {
-    title: "Data Engineering & Tools",
+    title: "Software Engineering",
     skills: ["Pandera", "Pytest", "Docker", "Git/GitLab", "Codex"],
   },
   {
@@ -113,15 +114,6 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
-  {
-    title:"Career break",
-    image: hobbyTravel.src,
-    year: "Feb. 2026 - Aug. 2026 (7 months)",
-    company: "Independent travel",
-    description: "Independent travel across Asia and Europe (planned before graduation).",
-    tasks: [],
-    technologies: {},
-  },
   {
     title: "Data Science Intern (Master's Thesis)",
     image: aividens,
@@ -217,12 +209,12 @@ export const EDUCATION = [
     company: "ECAM",
     image: ecam,
     year: "Graduated Jan. 2026",
-    description: `Industrial Engineering Institute, Brussels — graduated with Distinction`,
+    description: `Industrial Engineering Institute, Brussels`,
     certifications:
     [
-      "Master of Science in Industrial Engineering – Computer Science (graduated January 2026)",
+      'Master of Science in Industrial Engineering – Computer Science (graduated with <span class="font-bold text-white/80">Distinction</span>)',
       'Master\'s thesis at AiVidens: "The impact of dunning and collection actions on payer behavior"',
-      "Bachelor's degree in Electrical Engineering",
+      'Bachelor\'s degree in Electrical Engineering',
     ],
     technologies: [],
   },
