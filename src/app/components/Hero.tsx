@@ -34,8 +34,8 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-blue-200 via-slate-500 to-blue-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Junior Data Scientist | Python, SQL, Machine Learning<br />
-              Available from September 2026
+              Data Scientist | Python, SQL, Machine Learning<br />
+              Open to Work
             </motion.span>
             <motion.p
               variants={container(1)}

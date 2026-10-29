@@ -26,15 +26,17 @@ export const ABOUT_ME =
   paragraph:
     [ 
       `
-        I am a Belgian graduate in Industrial Engineering with a specialization in Computer Science
-        and a strong interest in Data Science and Artificial Intelligence.
-        Through internships, student jobs, and my master’s thesis, I have developed practical experience in data analysis,
-        machine learning, and software development, while strengthening my analytical and problem-solving skills.
+        I am a Data Scientist based in Brussels, with a Master's degree in Industrial Engineering
+        (Computer Science) from ECAM, where I graduated with Distinction in January 2026.
+        At AiVidens, I gained hands-on experience with Python, SQL, data pipelines, and machine
+        learning, while learning to translate business needs into clear, useful indicators.
       `,
       `
-        I am passionate about transforming data into actionable insights and building intelligent solutions to real-world challenges.
-        I am currently seeking a first opportunity as a Junior Data Scientist, Data Analyst, or Machine Learning Engineer,
-        where I can contribute to impactful projects while continuing to grow professionally.
+        For my master's thesis, I developed KPIs used by marketing and available to clients,
+        and used PCA and K-Means to group approximately 1,700 customers into five behavioural
+        profiles. More recently, I analysed motorcycle trade patterns, compared forecasting
+        and anomaly detection methods, and built an LLM assistant to investigate flagged
+        observations. I am currently open to Data Scientist opportunities.
       `
     ]
 }
@@ -63,18 +65,18 @@ export const HOBBIES = [
 export const LANGUAGES = [
   {
     title: "French",
-    level: "Native",
+    level: "Native (C2)",
     languageStays: {},
   },
   {
     title: "English",
-    level: "Advanced (C1- level)",
+    level: "Advanced (C1)",
     languageStays: {"England": "1 month", "California": "2 months"}
  
   },
   {
     title: "Spanish",
-    level: "Upper-Intermediate (B2- level)",
+    level: "Upper-Intermediate (B2)",
     languageStays: {},
   },
 ];
@@ -82,22 +84,22 @@ export const LANGUAGES = [
 export const SKILLS = [
   {
     title: "Data & Analytics",
+    skills: ["Python", "SQL", "PostgreSQL", "Pandas", "NumPy"],
+  },
+  {
+    title: "Modelling & Machine Learning",
     skills: [
-      "Python",
-      "SQL (PostgreSQL)",
-      "Pandas",
-      "Statistical Analysis",
+      "Statistics",
+      "Forecasting",
+      "Clustering",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
     ],
   },
   {
-    title: "Machine Learning & AI",
-    skills: [
-      "Customer Segmentation",
-      "Scikit-Learn",
-      "TensorFlow, PyTorch",
-      "Time Series (NeuralProphet)",
-      "LLM Applications (LangChain)",
-    ],
+    title: "Data Engineering & Tools",
+    skills: ["Pandera", "Pytest", "Docker", "Git/GitLab", "Codex"],
   },
   {
     title: "Business Analytics",
@@ -106,15 +108,6 @@ export const SKILLS = [
       "KPI Design & Performance Measurement",
       "Accounts Receivable & Credit-to-Cash",
       "Collection Strategy Analytics",
-    ],
-  },
-  {
-    title: "Software Engineering",
-    skills: [
-      "Data Pipelines",
-      "Git & GitLab",
-      "Docker",
-      "PyTest",
     ],
   },
 ];
@@ -130,27 +123,27 @@ export const EXPERIENCES = [
     technologies: {},
   },
   {
-    title:"Data Scientist – Master’s Thesis on Behavioral Segmentation",
+    title: "Data Science Intern (Master's Thesis)",
     image: aividens,
     year: "Aug. 2025 - Jan. 2026 (6 months)",
-    company: '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
-    description:
-      `
-        Conducted a master’s thesis at AiVidens focused on behavioral analytics in Accounts Receivable and Credit-to-Cash processes.
-      `,
-    tasks:
-    [
-      "Designed behavioral KPIs to measure payer behavior to dunning and collection actions.",
-      "Built a Python/PostgreSQL data pipeline for large-scale behavioral analysis.",
-      "Applied machine learning to identify payer segments and predict collection outcomes.",
-      "Delivered actionable insights to support behavior-driven collection strategies and predictive credit analytics."
+    company:
+      '<a href="https://aividens.com" target="_blank" rel="noopener noreferrer" class="hover:text-sky-300 hover:underline">AiVidens</a>',
+    description: `
+      Studied how payment reminders and collection actions affect payer behaviour,
+      with the aim of improving collection strategies through data analysis.
+    `,
+    tasks: [
+      "Developed KPIs now used by marketing in sales discussions and available to clients to guide collection decisions.",
+      "Built a validated Python(Pandas, Numpy)/SQL pipeline using only historical payment data.",
+      "Applied PCA and K-Means (scikit-learn) to group approximately 1,700 customers into five behavioural profiles.",
+      "Worked with non-technical marketing colleagues to translate business needs into clear indicators and explain statistical results in plain language.",
     ],
     technologies: {
-      DataScience: "",
-      KPI: "",
-      MachineLearning: "",
-      Python: "",
-      SQL: "",
+      Python: "https://www.python.org/",
+      Pandas: "https://pandas.pydata.org/",
+      PostgreSQL: "https://www.postgresql.org/",
+      "Scikit-learn": "https://scikit-learn.org/",
+      Pandera: "https://pandera.readthedocs.io/",
     },
   },
   {
@@ -223,18 +216,27 @@ export const EDUCATION = [
   {
     company: "ECAM",
     image: ecam,
-    year: "Sep. 2019 - Jan. 2026",
-    description: `Industrial Engineering Institute`,
+    year: "Graduated Jan. 2026",
+    description: `Industrial Engineering Institute, Brussels — graduated with Distinction`,
     certifications:
     [
-      "Master’s degree (2 years): industrial engineering in computer science",
-      "Bachelor’s degree (3 years): electrical engineering"
+      "Master of Science in Industrial Engineering – Computer Science (graduated January 2026)",
+      'Master\'s thesis at AiVidens: "The impact of dunning and collection actions on payer behavior"',
+      "Bachelor's degree in Electrical Engineering",
     ],
     technologies: [],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Motorcycle Trade Analysis",
+    github: "https://github.com/Jordan-92/motorcycle-trade-analysis",
+    image: projectMachineLearning,
+    description:
+      "Analysed motorcycle trade patterns in Jupyter, compared monthly forecasting and anomaly detection methods, and added an LLM assistant to investigate flagged observations. Checked the assistant's answers against the underlying data.",
+    technologies: ["Python", "Jupyter", "Forecasting", "Anomaly Detection", "LLM"],
+  },
   {
     title: "AI Assistant",
     github:"https://github.com/Jordan-92/langchain_project",
